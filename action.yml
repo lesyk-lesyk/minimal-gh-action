@@ -1,0 +1,10 @@
+name: 'Mininal GH Action'
+description: 'A minimal GitHub Action in JavaScript'
+inputs:
+  username:
+    description: 'The user name to greet'
+    required: true
+    default: 'Lesyk'
+runs:
+  using: 'node12'
+  main: 'index.js'
